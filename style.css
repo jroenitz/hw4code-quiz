@@ -1,0 +1,41 @@
+body{
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    width: 800px;
+    max-width: 80%;
+    box-shadow: 0 0 10px 2px;
+}
+
+.btn-grid{
+    display: grid;
+}
+
+.start-btn{
+    font-weight: bold;
+    font-size: 1.5rem;
+    padding: 10px 20px;
+}
+
+.prev-btn{
+    font-weight: bold;
+    font-size: 1.5rem;
+    padding: 10px 20px;
+
+}
+
+.next-btn{
+    font-weight: bold;
+    font-size: 1.5rem;
+    padding: 10px 20px;
+}
+
+.hide{
+    display: none;
+}
+

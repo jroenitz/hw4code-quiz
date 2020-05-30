@@ -1,4 +1,4 @@
-var questionsArr = [
+var questionsARR = [
     {
         title: "JavaScript is the same as Java.",
         choices: ["True", "False"],

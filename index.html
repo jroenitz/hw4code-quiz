@@ -1,54 +1,65 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <link rel="stylesheet" href="style.css">
-    <link href="https://stackpath.bootstrapcdn.com/bootswatch/4.4.1/cyborg/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-l7xaoY0cJM4h9xh1RfazbgJVUZvdtyLWPueWNtLAphf/UbBgOVzqbOTogxPwYLHM" crossorigin="anonymous">
 
-    <script src="../assets/question.js"></script>
-    <script src="../assets/logic.js"></script>
-
+  
+    <script defer src="./assets/logic.js"></script>
 
     <title>JS code quiz</title>
 </head>
+
 <body>
-  <div class="container">
-    <div class="jumbotron">
-      <p class="display-4">Take this quiz to see do you will do, you have 20 seconds on the clock and the time starts when you press. </p> 
-        
+    <div class="container">
+        <div class="jumbotron">
+            <p class="display-4">Take this quiz to see do you will do, you have 20 seconds on the clock and the time
+                starts when you press start. </p>
 
-      <a class="btn btn-primary btn-lg" id="start" href="#" role="button" class="center">Start</a>
+            
+
+        </div>
+        <div id="questions" class="hide">
+            <div id="question">Question</div>
+            <div id="answer-buttons" class="btn-grid"></div>
+
+            <button class=btn>Answer 1</button>
+            <button class=btn>Answer 2</button>
+            <button class=btn>Answer 3</button>
+            <button class=btn>Answer 4</button>
+          
+
+        </div>
+<div class="controls">
+    <button id=start-btn class="start-btn btn">Start</button>
+    <button id=prev-btn class="prev-btn btn">Previous</button>
+    <button id=next-btn class="next-btn btn">Next</button>
+</div>
+
+
+        <div>
+            <h3 id="score"> Score:</h3>
+        </div>
+        <div>
+            <h3 id="timer">Timer:</h3>
+        </div>
+
+
+        <div id="results"></div>
+        <!--View Highscore - to the left top of page -->
+
+
+        <h3> High Score </h3>
+
+
     </div>
-    
-    <br>
-    <div class="buttons">
-      <button class="prev">
-        Previous
-      </button>
-      <button class="next">
-        Next 
-      </button>
-    </div>
-    <div>
-      <h3 id="score"> Score:</h3>
-    </div>
-    <div>
-      <h3 id="timer">Timer:</h3>
     </div>
 
-
-    <div id="results"></div>
-    <!--View Highscore - to the left top of page -->
-
-
-    <h3> High Score </h3>
- 
-    
-  </div>
-  </div>
 
 </body>
+
+<script src="../assets/logic.js"></script>
 </html>
